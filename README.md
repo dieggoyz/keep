@@ -1,26 +1,39 @@
-# Google Keep Adaptation
+<div align="center">
+  <img src="/media/keep.png" alt="keep" height="100" />
+  <p>
+    a minimalist note-taking app inspired by Google Keep.
+  </p>
+</div>
 
-A simple note-taking application inspired by Google Keep, initially developed as a CRUD app with PHP and MVC structure. This project allows users to add, edit, and delete notes, with a clean, minimalist interface.
+**google keep clone** is a lightweight application for creating, editing, and managing notes, refactored from a PHP-based CRUD app to a fully JavaScript-driven app using local storage.
 
-## Project Background
+### features
 
-This app was created in June 2022 as part of my early work exploring MVC patterns in web development. It was a straightforward project that helped me gain experience with CRUD operations and application structure. Since then, I’ve decided to migrate the app from PHP to JavaScript, with Local Storage handling data persistence for improved performance and easier deployment.
+- add, edit, and delete notes with ease.
+- local storage for seamless in-browser data persistence.
+- clean and minimalist UI for distraction-free note-taking.
 
-## Purpose of Migration
+### roadmap
 
-Removing PHP and database dependencies allows the app to run locally in the user's browser, simplifying the deployment process. Switching to JavaScript and Local Storage provides faster load times and makes the app more lightweight and accessible.
+- [no future enhancements planned; app is complete.]
 
-## Key Features
+### getting started
 
-- **Add Notes**: Easily create notes with customizable content.
-- **Edit Notes**: Update existing notes with new information.
-- **Delete Notes**: Remove notes as needed.
-- **Local Storage**: Notes are saved directly in the browser for a seamless local experience.
+clone the repository and open `index.html` in your browser. no dependencies or installation are required, as the app runs entirely in the browser.
 
-## Design Note
+### design notes
 
-Although I no longer use Bootstrap in my day-to-day projects, I utilized Bootstrap in this project to make it "simpler" and faster to develop.
+Bootstrap was used for quick UI development, although I currently favor more modern CSS solutions in my projects.
 
-## Future Enhancements
+### license
 
-As I've already finished refactoring the app, I don't plan to add any more functionality. My goal was to publish a more minimalistic version of it.
+this project is released under the [MIT license](LICENSE).  
+it's an experimental and non-commercial project meant for learning and fun.
+
+### thanks to
+
+- google keep, for the design inspiration.
+
+### contact
+
+reach out to me for feedback or suggestions at [diegoeffar@gmail.com](mailto:diegoeffar@gmail.com).
